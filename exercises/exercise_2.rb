@@ -14,4 +14,4 @@ puts "----------"
 @store2 = Store.find_by(id: 2)
 @store1.update(name: "Makrham")
 
-pp Store.all
+# pp Store.all
